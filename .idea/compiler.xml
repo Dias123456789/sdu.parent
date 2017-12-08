@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="sdu.client_main" target="1.8" />
+      <module name="sdu.client_test" target="1.8" />
+      <module name="sdu.controller_main" target="1.8" />
+      <module name="sdu.controller_test" target="1.8" />
+      <module name="sdu.parent_main" target="1.8" />
+      <module name="sdu.parent_test" target="1.8" />
+      <module name="sdu.register_main" target="1.8" />
+      <module name="sdu.register_test" target="1.8" />
+      <module name="sdu.server_main" target="1.8" />
+      <module name="sdu.server_test" target="1.8" />
+      <module name="sdu.stand_main" target="1.8" />
+      <module name="sdu.stand_test" target="1.8" />
+      <module name="sdu.war_main" target="1.8" />
+      <module name="sdu.war_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

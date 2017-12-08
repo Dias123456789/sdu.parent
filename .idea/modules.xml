@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdu.client/sdu.client.iml" filepath="$PROJECT_DIR$/.idea/modules/sdu.client/sdu.client.iml" group="sdu.client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdu.client/sdu.client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sdu.client/sdu.client_main.iml" group="sdu.client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdu.client/sdu.client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sdu.client/sdu.client_test.iml" group="sdu.client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdu.controller/sdu.controller.iml" filepath="$PROJECT_DIR$/.idea/modules/sdu.controller/sdu.controller.iml" group="sdu.controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdu.controller/sdu.controller_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sdu.controller/sdu.controller_main.iml" group="sdu.controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdu.controller/sdu.controller_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sdu.controller/sdu.controller_test.iml" group="sdu.controller" />
+      <module fileurl="file://$PROJECT_DIR$/sdu.parent.iml" filepath="$PROJECT_DIR$/sdu.parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdu.parent_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sdu.parent_main.iml" group="sdu.parent" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdu.parent_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sdu.parent_test.iml" group="sdu.parent" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdu.register/sdu.register.iml" filepath="$PROJECT_DIR$/.idea/modules/sdu.register/sdu.register.iml" group="sdu.register" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdu.register/sdu.register_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sdu.register/sdu.register_main.iml" group="sdu.register" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdu.register/sdu.register_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sdu.register/sdu.register_test.iml" group="sdu.register" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdu.server/sdu.server.iml" filepath="$PROJECT_DIR$/.idea/modules/sdu.server/sdu.server.iml" group="sdu.server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdu.server/sdu.server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sdu.server/sdu.server_main.iml" group="sdu.server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdu.server/sdu.server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sdu.server/sdu.server_test.iml" group="sdu.server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdu.stand/sdu.stand.iml" filepath="$PROJECT_DIR$/.idea/modules/sdu.stand/sdu.stand.iml" group="sdu.stand" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdu.stand/sdu.stand_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sdu.stand/sdu.stand_main.iml" group="sdu.stand" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdu.stand/sdu.stand_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sdu.stand/sdu.stand_test.iml" group="sdu.stand" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdu.war/sdu.war.iml" filepath="$PROJECT_DIR$/.idea/modules/sdu.war/sdu.war.iml" group="sdu.war" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdu.war/sdu.war_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sdu.war/sdu.war_main.iml" group="sdu.war" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdu.war/sdu.war_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sdu.war/sdu.war_test.iml" group="sdu.war" />
+    </modules>
+  </component>
+</project>

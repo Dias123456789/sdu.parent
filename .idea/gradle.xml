@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:/Gradle" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/sdu.client" />
+            <option value="$PROJECT_DIR$/sdu.controller" />
+            <option value="$PROJECT_DIR$/sdu.register" />
+            <option value="$PROJECT_DIR$/sdu.server" />
+            <option value="$PROJECT_DIR$/sdu.stand" />
+            <option value="$PROJECT_DIR$/sdu.war" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    background-color: #323232;
+}
+
+#home{
+    background-image: url("img/Background.jpg");
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*position: absolute;*/
+    /*top: 0%;*/
+
+}
+
+#hederid {
+    background-color: #4B4B4D;
+}
+#nameid li>a:hover{
+    color: #00C6D7;
+}
+#pop{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: .25em;
+    border:solid 1px #4B4B4D;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+    left: 32%;
+    top: 10%;
+    color: #4B4B4D;
+}
+#fonPop{
+   position: relative;
+    width: 150%;
+    height: 600px;
+    left: -16%;
+}

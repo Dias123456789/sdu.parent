@@ -1,0 +1,137 @@
+<section class="navbar navbar-fixed-top custom-navbar" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">DJ</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+
+                <li><a href="#!/second#about" class="smoothScroll">О НАС</a></li>
+
+                <li><a href="#!/second#portfolio2" class="smoothScroll">ВАКАНСИЙ</a></li>
+
+            </ul>
+        </div>
+    </div>
+</section>
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 text-center">
+                <div class="section-title">
+                    <h1 class="heading bold"></h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img src="images/about-img.jpg" class="img-responsive" alt="about img">
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <h3 class="bold">DIGITAL TEAM</h3>
+                <h1 class="heading bold">Best Design Agency from California</h1>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="active"><a href="/#!/second" aria-controls="design" role="tab" data-toggle="tab">USER</a></li>
+                    <li><a href="/#!/second" aria-controls="mobile" role="tab" data-toggle="tab">ЖАЛОБА</a></li>
+                </ul>
+                <!-- tab panes -->
+                <div class="tab-content" ng-controller="SecondCtrl">
+                    <div role="tabpanel" class="tab-pane active"  id="design">
+                        <p ng-repeat="item in mylist">
+                            Post #{{item.id}}
+                            Name {{item.name}}
+                        </p>
+                    </div>
+                    <div role="tabpanel"  class="tab-pane" id="mobile">
+                        <input type="text" placeholder="жалоба"/>
+                        <input type="submit" value="submit" style="color: black"/>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="portfolio2">
+    <div class="container" ng-controller="SecondCtrl">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="section-title">
+                    <h1 class="heading bold">ВАКАНСИЙ</h1>
+                </div>
+                <!-- ISO section -->
+                <div class="iso-section">
+                    <ul class="filter-wrapper clearfix">
+                        <li><button data-filter="*" class="selected opc-main-bg">All</button></li>
+                        <li><button class="opc-main-bg" data-filter=".html">HTML</button></li>
+                        <li><button class="opc-main-bg" data-filter=".photoshop">Photoshop</button></li>
+                        <li><button class="opc-main-bg" data-filter=".wordpress">Wordpress</button></li>
+                        <li><a href="#" class="opc-main-bg" data-filter=".mobile">Mobile</a></li>
+                    </ul>
+                    <div class="iso-box-section wow fadeIn" data-wow-delay="0.9s">
+                        <div class="iso-box-wrapper col4-iso-box">
+
+                            <div class="iso-box html wordpress mobile col-lg-4 col-md-4 col-sm-6">
+                                <p ng-repeat="item in mylist">
+                                    Post #{{item.id}}
+                                    Name {{item.name}}
+                                </p>
+                            </div>
+
+                            <div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6">
+                                <p ng-repeat="item in mylist">
+                                    Post #{{item.id}}
+                                    Name {{item.name}}
+                                </p>
+                            </div>
+
+                            <div class="iso-box html mobile col-lg-4 col-md-4 col-sm-6">
+                                <p ng-repeat="item in mylist">
+                                    Post #{{item.id}}
+                                    Name {{item.name}}
+                                </p>
+                            </div>
+
+                            <div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6">
+                                <p ng-repeat="item in mylist">
+                                    Post #{{item.id}}
+                                    Name {{item.name}}
+                                </p>
+                            </div>
+
+                            <div class="iso-box html photoshop col-lg-4 col-md-4 col-sm-6">
+                                <p ng-repeat="item in mylist">
+                                    Post #{{item.id}}
+                                    Name {{item.name}}
+                                </p>
+                            </div>
+
+                            <div class="iso-box photoshop col-lg-4 col-md-4 col-sm-6">
+                                <p ng-repeat="item in mylist">
+                                    Post #{{item.id}}
+                                    Name {{item.name}}
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- footer section -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <p>Copyright © DJ | Student SDU <a href="#" target="_parent">Aner Dias</a></p>
+                <hr>
+            </div>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,201 @@
+
+
+
+
+        <!-- navigation section -->
+        <section class="navbar navbar-fixed-top custom-navbar" role="navigation" id="hederid">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">DJ</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right" ng-controller="ScrollController" id="nameid">
+                        <li><a href="#!/#home" class="smoothScroll" style="">ГЛАВНОЕ</a></li>
+                        <!--<li><a href="#!/#team" class="smoothScroll">СПОНСОРЫ</a></li>-->
+                        <li><a href="#!/#portfolio" class="smoothScroll">ВАКАНСИИ</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- home section -->
+        <section id="home"ng-controller="popup">
+            <div class="container" >
+                <div class="row">
+                    <div class="col-md-12 col-sm-12" >
+                        <h3>РАБОТА / ПРОЕКТЫ / СОТРУДНИКИ</h3>
+                        <h1>DIGITAL JOB</h1>
+                        <hr>
+                        <button  class="smoothScroll btn btn-danger" ng-click="ShowHide()">LOGIN</button>
+                        <button  class="smoothScroll btn btn-default" ng-click="ShowHide2()">REGISTRATION</button>
+                    </div>
+                </div>
+
+                <div ng-show = "IsVisible" id="fonPop">
+                        <div style="position:absolute; top: 0; left:0; right: 0;bottom: 0" ng-click="ShowHide()"></div>
+                        <div ng-show="IsVisible" id="pop" >
+                            <form class="sa-innate-form" method="post">
+                                <h3>Login</h3>
+                                <input type="text" placeholder="name"/><br>
+                                <input type="password" placeholder="password"/><br>
+                                <input type="submit" value="submit">
+                            </form>
+                        </div>
+                </div>
+                <div ng-show = "IsVisible2" id="fonPop">
+                    <div style="position:absolute; top: 0; left:0; right: 0;bottom: 0" ng-click="ShowHide2()"></div>
+                    <div ng-show="IsVisible2" id="pop">
+                        <form class="sa-innate-form" method="post">
+                            <h3>Regsitration</h3>
+                            <input type="text" placeholder="name"/><br>
+                            <input type="password" placeholder="password"/><br>
+                            <input type="email" placeholder="email"/><br>
+                            <p>Company  <input type="checkbox" value="COMPANY"/></p><br>
+                            <input type="submit" value="submit">
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- about section -->
+
+
+        <!-- team section -->
+        <!--<section id="team">-->
+            <!--<div class="container">-->
+                <!--<div class="row">-->
+                    <!--<div class="col-md-12 col-sm-12">-->
+                        <!--<div class="section-title">-->
+                            <!--<h1 class="heading bold">НАШИ СПОНСОРЫ</h1>-->
+                            <!--<hr>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="0.9s">-->
+                        <!--<div class="team-wrapper">-->
+                            <!--<img src="css/img/team1.png" class="img-responsive" alt="team img">-->
+                            <!--<div class="team-des">-->
+                                <!--<h4>Kaspi Bank</h4>-->
+                                <!--<hr>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.3s">-->
+                        <!--<div class="team-wrapper">-->
+                            <!--<img src="css/img/team2.png" class="img-responsive" alt="team img">-->
+                            <!--<div class="team-des">-->
+                                <!--<h4>The Coca-Cola Company</h4>-->
+                                <!--<hr>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.6s">-->
+                        <!--<div class="team-wrapper">-->
+                            <!--<img src="../css/img/team3.png" class="img-responsive" alt="team img">-->
+                            <!--<div class="team-des">-->
+                                <!--<h4>Mars chocolate compan</h4>-->
+                                <!--<hr>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.6s">-->
+                        <!--<div class="team-wrapper">-->
+                            <!--<img src="css/img/team4.png" class="img-responsive" alt="team img">-->
+                            <!--<div class="team-des">-->
+                                <!--<h4>XERO software company</h4>-->
+                                <!--<hr>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</section>-->
+
+        <!-- portfolio section -->
+        <div id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="section-title">
+                            <h1 class="heading bold">ВАКАНСИИ</h1>
+                            <hr>
+                        </div>
+                        <!-- ISO section -->
+                        <div class="iso-section">
+                            <ul class="filter-wrapper clearfix">
+                                <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
+                                <li><a href="#" class="opc-main-bg" data-filter=".html">HTML</a></li>
+                                <li><a href="#" class="opc-main-bg" data-filter=".photoshop">Photoshop</a></li>
+                                <li><a href="#" class="opc-main-bg" data-filter=".wordpress">Wordpress</a></li>
+                                <li><a href="#" class="opc-main-bg" data-filter=".mobile">Mobile</a></li>
+                            </ul>
+                            <div class="iso-box-section wow fadeIn" data-wow-delay="0.9s">
+                                <div class="iso-box-wrapper col4-iso-box">
+
+                                    <div class="iso-box html wordpress mobile col-lg-4 col-md-4 col-sm-6">
+                                        <p ng-repeat="item in mylist">
+                                            Post #{{item.id}}
+                                            Name {{item.name}}
+                                        </p>
+                                    </div>
+
+                                    <div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6">
+                                        <p ng-repeat="item in mylist">
+                                            Post #{{item.id}}
+                                            Name {{item.name}}
+                                        </p>
+                                    </div>
+
+                                    <div class="iso-box html mobile col-lg-4 col-md-4 col-sm-6">
+                                        <p ng-repeat="item in mylist">
+                                            Post #{{item.id}}
+                                            Name {{item.name}}
+                                        </p>
+                                    </div>
+
+                                    <div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6">
+                                        <p ng-repeat="item in mylist">
+                                            Post #{{item.id}}
+                                            Name {{item.name}}
+                                        </p>
+                                    </div>
+
+                                    <div class="iso-box html photoshop col-lg-4 col-md-4 col-sm-6">
+                                        <p ng-repeat="item in mylist">
+                                            Post #{{item.id}}
+                                            Name {{item.name}}
+                                        </p>
+                                    </div>
+
+                                    <div class="iso-box photoshop col-lg-4 col-md-4 col-sm-6">
+                                        <p ng-repeat="item in mylist">
+                                            Post #{{item.id}}
+                                            Name {{item.name}}
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- footer section -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <p>Copyright © DJ | Student SDU <a href="#" target="_parent">Aner Dias</a></p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </footer>
